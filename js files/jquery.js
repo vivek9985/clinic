@@ -1,0 +1,11 @@
+$(document).ready(function(){
+    $('.tab-title-1').click(function(){
+        $('.tab-para-1').slideToggle('slow');
+    });
+    $('.tab-title-2').click(function(){
+        $('.tab-para-2').slideToggle('slow');
+    });
+    $('.tab-title-3').click(function(){
+        $('.tab-para-3').slideToggle('slow');
+    });
+});
